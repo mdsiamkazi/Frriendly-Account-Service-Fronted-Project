@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* shared  */
+.font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn {
+  padding: 12px;
+  background-color: #2e4f21;
+  border-radius: 51px;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+
+header {
+  background-color: #a0f1bd;
+  padding: 32px 40px 0px  40px;
+  border-radius:  0 0 9px 9px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-btn {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #2e4f21;
+}
+nav h1 {
+  font-size: 25px;
+  color: #2e4f21;
+}
+
+.banner {
+  margin-top: 32px;
+  padding: 100px 0 100px 0;
+
+}
+.banner-main{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    text-align: left;
+    padding: 61px 80px 61px 0;
+}
+.banner-content h1{
+   color: #2e4f21;
+   margin-bottom: 24px;
+   font-size: 45px;
+}
+.banner-content p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.banner-img img{
+    width: 429px;
+}
+.service{
+    padding: 120px 40px 100px 40px;
+    text-align: center;
+
+
+}
+.service h6{
+    font-size: 20px;
+    color: #2e4f21;
+    margin-bottom:28px ;
+}
+.service h1{
+    font-size: 45px;
+    color: #2e4f21;
+    margin-bottom: 28px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-weight: 500;
+}
+.service p{
+    color: #2e4f21;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+.tax-card{
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+}
+.tax{
+    background-color: #D2F8DC;
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin-bottom: 40px;
+}
+.tax-img img{
+    width: 393px;
+}
+.tax-content h2{
+    color: #2e4f21;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.tax-content p{
+    margin-bottom: 70px;
+    color: #2e4f21;
+    font-size: 18px;
+}
+.tax-card div{
+    padding:12px;
+    color: #2e4f21;
+    background-color: white;
+    border-radius: 8px;
+    
+    
+    font-size: 16px;
+}
+.tax1{
+    margin-right: 20px;
+    margin-left: auto;
+}
+.review-section{
+    padding: 100px;
+    text-align: center;
+
+}
+.review-section-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.review-section-h1{
+    margin-bottom: 120px;
+    color: #2e4f21;
+    font-size: 45px;
+    font-weight: 500;
+}
+.rsm-card{
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 600px;
+}
+.rsm-card-in{
+    border-top: 1px solid #2e4f21;
+    padding: 20px 0 20px 0;
+    text-align: left;
+}
+.rsm-card-in h6{
+    color: #2e4f21;
+    font-size: 23px;
+    margin-bottom: 16px;
+
+}
+
+.rsm-card-in p{
+    color: #2e4f21;
+    font-size: 16px;
+}
+.rsm-card-red{
+    background-color: #2e4f21;
+}
+.rsm-card-in-red{
+   border-top: 1px solid #a0f1bd;
+}
+.rsm-card-in-red h6{
+    color: white;
+}
+.rsm-card-in-red p{
+    color: white;
+}
+
+.rsm-right{
+    padding: 0 40px 0 40px;
+    border-left: 2px solid #568b41;
+    text-align: left;
+    
+
+}
+.review-p{
+    font-size: 24px;
+    color: #2e4f21;
+    margin-bottom: 50px;
+}
+
+
+.review-account{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: start;
+}
+
+.review-account p{
+    color: #2e4f21;
+    font-size: 16px;
+}
+.img-section{
+   
+    width: 100%;
+}
+.img-section img{
+    width: 100%;
+    height: 767px;
+}
+.ph-left{
+    font-size: 60px;
+    padding-left: ;
+    color: #2e4f21;
+}
+.purpose{
+    padding: 80px 40px 120px 40px;
+}
+.purpose-heading{
+    display: flex;
+    gap: 200px;
+    margin-bottom: 120px;
+}
+.ph-right{
+    padding-bottom: 72px;
+    padding-left: 50px;
+    color: #2e4f21;
+    font-size: 16px;
+    
+}
+.purpose-middle{
+    border-left: 1px solid #2e4f21;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pm-card{
+    border-left: 1px solid #2e4f21;
+    padding: 20px 80px 0 50px;width: 30%;
+}
+.pm-card img{
+    margin-bottom: 30px;
+    width: 30px;
+    height: 30px;
+}
+.pm-card h3{
+    font-size: 25px;
+    color: #2e4f21;
+    margin-bottom: 30px;
+}
+.pm-card p{
+    margin-bottom: 30px;
+    color: #2e4f21;
+    font-size: 17px;
+}
+.pm-caption{
+    font-size: 20px;
+}
