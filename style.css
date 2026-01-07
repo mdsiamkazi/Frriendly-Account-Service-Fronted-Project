@@ -263,8 +263,45 @@ nav h1 {
 .pm-card p{
     margin-bottom: 30px;
     color: #2e4f21;
-    font-size: 17px;
+    font-size: 20px;
 }
 .pm-caption{
+    font-size: 22px;
+}
+
+
+.plan{
+    padding: 50px 40px;
+}
+.plan .plan-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.plan-main div{
+ border-radius: 20px;
+ width: 50%;
+
+}
+.plan-left{
+    background-color: #2e4f21;
+    color: white;
+    padding: 60px;
+}
+.plan-left h1{
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.plan-left p{
     font-size: 20px;
+     margin-bottom: 50px;
+
+}
+.plan-right img{
+    width: 100%;
+}
+.btn-white{
+    background-color: antiquewhite;
+    color: #2e4f21;
 }
