@@ -302,6 +302,63 @@ nav h1 {
     width: 100%;
 }
 .btn-white{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     color: #2e4f21;
+}
+.mot{
+    padding: 160px 120px;
+    text-align: center;
+
+}
+.mot h1{
+    font-size: 40px;
+    color: #2e4f21;
+    margin: 60px;
+    font-weight: 500;
+}
+.mot button{
+    padding: 24px;
+}
+footer{
+    padding: 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #2e4f21;
+}
+.footer-right,.footer-left{
+    width: 50%;
+    height: 100%;
+}
+.fl-p1{
+    
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 236px;
+
+}
+
+.dp1{
+    font-size: 16px;
+    font-weight: bold;
+}
+dp2{
+    font-size: 16px;
+  
+}
+.fr-1{
+   display: flex;
+   justify-content: start;
+   gap: 23px;
+   align-items: center;
+   margin-top:0;
+   margin-left:0;
+   margin-bottom:236px;
+}
+.fr-1 a{
+    text-decoration: none;
+}
+.footer-right p{
+    margin-bottom: 0;
 }
